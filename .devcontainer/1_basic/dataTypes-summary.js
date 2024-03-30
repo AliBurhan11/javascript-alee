@@ -35,18 +35,39 @@ const myFunction = function(){
     console.log("hellow world");
 }
 
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof myObj);
-console.log(typeof bigNumber);
-console.log(typeof id);
-console.log(typeof outsideTemp);
-console.log(typeof userEmail);
-console.log(typeof isLoggedin);
-console.log(typeof scoreValue);
-
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(typeof bigNumber);
+// console.log(typeof id);
+// console.log(typeof outsideTemp);
+// console.log(typeof userEmail);
+// console.log(typeof isLoggedin);
+// console.log(typeof scoreValue);
 
 
 // note if you want to master javascript master objects and browserEvents or webEvents.
 
 // javascript is dynamically typed language
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory (primitive) and heap memory (nonPrimitive)
+
+let myYoutubeName = "HowzSo"
+let anothername = myYoutubeName
+anothername = "HowAmazing"
+// console.log(anothername);
+// console.log(myYoutubeName);
+
+let userOne = {
+    email: "user@email.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "alee@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
