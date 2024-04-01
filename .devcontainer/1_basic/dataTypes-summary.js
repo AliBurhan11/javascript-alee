@@ -23,7 +23,7 @@ const bigNumber = 743975992749742422724n
 
 // arrays:
 const heros = ["sup", "man", "bad" ];
-
+console.log(heros);
 // Objects:
 let myObj = {
     name : "alee",
